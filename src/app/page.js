@@ -142,8 +142,8 @@ export default function NavbarBasicPreview() {
 
       {/*<!-- FAQ nya --> */}
       <div className="max-w-7xl mx-auto py-6 dark:bg-white">
-        <div className="px-4 text-6xl">F.A.Q</div>
-        <div className="max-w-7xl mx-auto py-9">
+        <div className="px-4 text-6xl dark:bg-white dark:text-white">F.A.Q</div>
+        <div className="max-w-7xl mx-auto py-9 dark:bg-white">
           <section className="w-full divide-y rounded divide-slate-200 ">
             <details className="p-4 group" open>
               <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
