@@ -136,7 +136,7 @@ export default function NavbarBasicPreview() {
                 </svg>
               </summary>
               <p className="mt-4 text-black font-bold">
-                Sandra : Berikut adalah harganya Kak
+                Berikut adalah harganya Kak
                 <br />Kuy v2 device only 105K
                 <br />Aflo v1 device only 105K
                 <br />Kuy Saik device only 110K
@@ -168,7 +168,7 @@ export default function NavbarBasicPreview() {
                 </svg>
               </summary>
               <p className="mt-4 text-black font-bold">
-                Sandra : Ada, berikut list nya
+                Ada, berikut list nya
                 <br />1 device
                 <br />1 cartridge
                 <br />1 lanyard
@@ -204,7 +204,7 @@ export default function NavbarBasicPreview() {
                 </svg>
               </summary>
               <p className="mt-4 text-black font-bold text-justify">
-                Sandra : Ada, Untuk aflo v1 dan kuy v2 memiliki garansi 1 bulan terhitung dari tanggal pembelian dan cartridgenya bergaransi 1 minggu dari tanggal pembelian,
+                Ada, Untuk aflo v1 dan kuy v2 memiliki garansi 1 bulan terhitung dari tanggal pembelian dan cartridgenya bergaransi 1 minggu dari tanggal pembelian,
                 <br />Untuk aflo joy, kuy saik dan podlott dan cartridgenya bergaransi 1 minggu. Terhitung dari tanggal pembelian
               </p>
             </details>
@@ -233,7 +233,7 @@ export default function NavbarBasicPreview() {
               </summary>
               <p className="mt-4 text-black font-bold">
                 Sandra :
-                <br/>A : 1. Kontak customer care movi.
+                <br/>1. Kontak customer care movi.
                 <br/>2. Informasikan kendala dari produknya kepada sandra.
                 <br/>3. Lampirkan video terkait kendala dari produknya beserta bukti pembelian nya.
                 <br/>4  sandra akan mengirim form garansi untuk diisi oleh  yang mengajukan claim. Apabila produknya masih dalam masa garansi
