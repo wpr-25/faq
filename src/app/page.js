@@ -12,7 +12,7 @@ export default function NavbarBasicPreview() {
     <>
     <div className="dark:bg-white">
        {/*<!-- Navbar --> */}
-       <header className="max-w-7xl mx-auto border-b-1 relative z-20 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+       <header className="max-w-7xl mx-auto border-b-1 relative z-20 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden dark:bg-white">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
             aria-label="main navigation"
@@ -108,7 +108,7 @@ export default function NavbarBasicPreview() {
       </header>
       {/*<!-- Navbar--> */}
       {/*<!--slider-->*/}
-      <div className="carousel max-w-7xl mx-auto py-4">
+      <div className="carousel max-w-7xl mx-auto py-4 dark:bg-white">
         <div id="slide1" className="carousel-item relative w-full">
           <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b655a1695d4f0a41b3/download/3.jpg" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -141,7 +141,7 @@ export default function NavbarBasicPreview() {
       {/*<!--slider-->*/}
 
       {/*<!-- FAQ nya --> */}
-      <div className="max-w-7xl mx-auto py-6">
+      <div className="max-w-7xl mx-auto py-6 dark:bg-white">
         <div className="px-4 text-6xl">F.A.Q</div>
         <div className="max-w-7xl mx-auto py-9">
           <section className="w-full divide-y rounded divide-slate-200 ">
