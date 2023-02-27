@@ -10,7 +10,7 @@ export default function NavbarBasicPreview() {
 
   return (
     <>
-      {/*<!-- Component: Basic Navbar --> */}
+      {/*<!-- Navbar --> */}
       <header className="max-w-7xl mx-auto border-b-1 relative z-20 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
@@ -18,7 +18,7 @@ export default function NavbarBasicPreview() {
             className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
             role="navigation"
           >
-            {/*      <!-- Brand logo --> */}
+            {/*      <!-- logo --> */}
             <div><Link href="https://movi.id"><img src="https://shop.movi.id/img/logos/movi.png" className="py-6 h-20" /></Link></div>
             {/*      <!-- Mobile trigger --> */}
             <button
@@ -57,7 +57,7 @@ export default function NavbarBasicPreview() {
                 }`}
             >
               <li role="none" className="flex items-stretch">
-                <a
+                <div
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
@@ -65,7 +65,7 @@ export default function NavbarBasicPreview() {
                   href="javascript:void(0)"
                 >
                   <span><Link href="https://movi.id">Home</Link></span>
-                </a>
+                </div>
               </li>
               <li role="none" className="flex items-stretch">
                 <div
@@ -105,9 +105,9 @@ export default function NavbarBasicPreview() {
           </nav>
         </div>
       </header>
-      {/*<!-- End Basic Navbar--> */}
+      {/*<!-- Navbar--> */}
 
-      {/*<!-- Component: Basic accordion --> */}
+      {/*<!-- FAQ nya --> */}
       <div className="max-w-7xl mx-auto py-6">
         <div className="px-4 text-6xl">F.A.Q</div>
         <div className="max-w-7xl mx-auto py-9">
@@ -241,11 +241,93 @@ export default function NavbarBasicPreview() {
 
               </p>
             </details>
-            
+            <details className="p-4 group">
+              <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+              Berapa lama masa garansi ?
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  aria-labelledby="title-ac03 desc-ac03"
+                >
+                  <title id="title-ac03">Open icon</title>
+                  <desc id="desc-ac03">
+                    icon that represents the state of the summary
+                  </desc>
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 4v16m8-8H4"
+                  />
+                </svg>
+              </summary>
+              <p className="mt-4 text-black font-bold text-justify">
+              1 minggu kalo Kamu daftarin di website bisa 1 bulan, Link nya dibawah ini ya <br/><Link href="https://shop.movi.id/form/register-product?_ga=2.35579937.1646850590.1677463433-1868872385.1667883819&_gl=1*1rqtz71*_ga*MTg2ODg3MjM4NS4xNjY3ODgzODE5*_ga_XZG8G2C2ZR*MTY3NzQ3NDM5OS4yMDMuMC4xNjc3NDc0Mzk5LjAuMC4w" className="hover:text-green-400">Form Garansi</Link>
+              </p>
+            </details>
+            <details className="p-4 group">
+              <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+              Cartridge kuy V2 bisa digunakan di kuy saik?
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  aria-labelledby="title-ac04 desc-ac04"
+                >
+                  <title id="title-ac04">Open icon</title>
+                  <desc id="desc-ac04">
+                    icon that represents the state of the summary
+                  </desc>
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 4v16m8-8H4"
+                  />
+                </svg>
+              </summary>
+              <p className="mt-4 text-black font-bold">
+                
+              tenang semua jenis cartridge kuy bisa saling digunakan mulai dari V1 - KUY GOX (termasuk kuy podlott )
+
+              </p>
+            </details>
+            <details className="p-4 group">
+              <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+              Kuy, Aflo bisa pakai liquid freebase?
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  aria-labelledby="title-ac03 desc-ac03"
+                >
+                  <title id="title-ac03">Open icon</title>
+                  <desc id="desc-ac03">
+                    icon that represents the state of the summary
+                  </desc>
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 4v16m8-8H4"
+                  />
+                </svg>
+              </summary>
+              <p className="mt-4 text-black font-bold text-justify">
+              bisa asalkan menggunakan liquid yang ada logo FB99+ dan vg | pg nya 50:50
+              </p>
+            </details>
           </section>
         </div>
       </div>
-      {/*<!-- End Basic accordion --> */}
+      {/*<!-- FAQ nya --> */}
 
     </>
   )
