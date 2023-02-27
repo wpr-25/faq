@@ -110,28 +110,28 @@ export default function NavbarBasicPreview() {
       {/*<!--slider-->*/}
       <div className="carousel max-w-7xl mx-auto py-4 dark:bg-white">
         <div id="slide1" className="carousel-item relative w-full">
-          <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b655a1695d4f0a41b3/download/3.jpg" className="w-full" />
+          <img src="3.jpg" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" className="btn btn-circle">❮</a>
             <a href="#slide2" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
-          <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b7a6d853e8c525ea60/download/4.jpg" className="w-full" />
+          <img src="4.jpg" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle">❮</a>
             <a href="#slide3" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
-          <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b9f553d78b00e69e56/download/5.jpg" className="w-full" />
+          <img src="5.jpg" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="btn btn-circle">❮</a>
             <a href="#slide4" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide4" className="carousel-item relative w-full">
-          <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b5e6d5b2843395d756/download/2.jpg" className="w-full" />
+          <img src="2.jpg" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" className="btn btn-circle">❮</a>
             <a href="#slide1" className="btn btn-circle">❯</a>
