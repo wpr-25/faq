@@ -232,7 +232,7 @@ export default function NavbarBasicPreview() {
                 </svg>
               </summary>
               <p className="mt-4 text-black font-bold">
-                Sandra :
+                
                 <br/>1. Kontak customer care movi.
                 <br/>2. Informasikan kendala dari produknya kepada sandra.
                 <br/>3. Lampirkan video terkait kendala dari produknya beserta bukti pembelian nya.
