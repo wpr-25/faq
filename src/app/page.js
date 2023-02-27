@@ -106,6 +106,38 @@ export default function NavbarBasicPreview() {
         </div>
       </header>
       {/*<!-- Navbar--> */}
+      {/*<!--slider-->*/}
+      <div className="carousel max-w-7xl mx-auto py-4">
+        <div id="slide1" className="carousel-item relative w-full">
+          <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b655a1695d4f0a41b3/download/3.jpg" className="w-full" />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" className="btn btn-circle">❮</a>
+            <a href="#slide2" className="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" className="carousel-item relative w-full">
+          <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b7a6d853e8c525ea60/download/4.jpg" className="w-full" />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" className="btn btn-circle">❮</a>
+            <a href="#slide3" className="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" className="carousel-item relative w-full">
+          <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b9f553d78b00e69e56/download/5.jpg" className="w-full" />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" className="btn btn-circle">❮</a>
+            <a href="#slide4" className="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" className="carousel-item relative w-full">
+          <img src="https://trello.com/1/cards/63bbb2560078530140d3701a/attachments/63fc88b5e6d5b2843395d756/download/2.jpg" className="w-full" />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" className="btn btn-circle">❮</a>
+            <a href="#slide1" className="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      {/*<!--slider-->*/}
 
       {/*<!-- FAQ nya --> */}
       <div className="max-w-7xl mx-auto py-6">
@@ -124,7 +156,7 @@ export default function NavbarBasicPreview() {
                   strokeWidth="1.5"
                   aria-labelledby="title-ac01 desc-ac01"
                 >
-                  <title id="title-ac01">Open icon</title>
+                  <title id="title-ac01">Open</title>
                   <desc id="desc-ac01">
                     icon that represents the state of the summary
                   </desc>
@@ -156,7 +188,7 @@ export default function NavbarBasicPreview() {
                   strokeWidth="1.5"
                   aria-labelledby="title-ac02 desc-ac02"
                 >
-                  <title id="title-ac02">Open icon</title>
+                  <title id="title-ac02">Open</title>
                   <desc id="desc-ac02">
                     icon that represents the state of the summary
                   </desc>
@@ -169,15 +201,21 @@ export default function NavbarBasicPreview() {
               </summary>
               <p className="mt-4 text-black font-bold">
                 Ada, berikut list nya
-                <br />1 device
-                <br />1 cartridge
-                <br />1 lanyard
-                <br />1 liquid 15ml random
-                <br />dengan harga :
-                <br />Aflo v1 starterpack : 140
-                <br />Kuy v2 starter pack : 140
-                <br />Podlott starterpack : 140
-                <br />Kuy Gox Starterkit : 250
+                <br />Aflo v1 starterpack : 140k
+                <br />Kuy v2 starterpack : 140k
+                <br />Kuy Podlott starterpack : 140k
+                <br />Starterpack sudah termasuk:
+                <br />- 1x Device
+                <br />- 1x Cartridge
+                <br />- 1x Lanyard
+                <br />- 1x Liquid 15ml (Random)
+                <br />
+                <br />Kuy Gox starterkit : 250k
+                <br />- 1x Device
+                <br />- 1x Cartridge
+                <br />- 1x Lanyard
+                <br />- 1x Silicone Case
+                <br />- 1x Liquid 15ml (Best Seller)
               </p>
             </details>
             <details className="p-4 group">
@@ -192,7 +230,7 @@ export default function NavbarBasicPreview() {
                   strokeWidth="1.5"
                   aria-labelledby="title-ac03 desc-ac03"
                 >
-                  <title id="title-ac03">Open icon</title>
+                  <title id="title-ac03">Open</title>
                   <desc id="desc-ac03">
                     icon that represents the state of the summary
                   </desc>
@@ -204,13 +242,20 @@ export default function NavbarBasicPreview() {
                 </svg>
               </summary>
               <p className="mt-4 text-black font-bold text-justify">
-                Ada, Untuk aflo v1 dan kuy v2 memiliki garansi 1 bulan terhitung dari tanggal pembelian dan cartridgenya bergaransi 1 minggu dari tanggal pembelian,
-                <br />Untuk aflo joy, kuy saik dan podlott dan cartridgenya bergaransi 1 minggu. Terhitung dari tanggal pembelian
+                Ada, 
+                <br/>Untuk Aflo V1 dan Kuy V2 memiliki garansi 1 bulan terhitung dari tanggal pembelian dan cartridgenya bergaransi 1 minggu dari tanggal pembelian,
+                <br />Untuk Aflo Joy, Kuy Saik, Kuy Podlott dan Cartridge bergaransi 1 minggu terhitung dari tanggal pembelian.
+                <br />
+                <br />note: Kalau kamu daftarin devicenya di website, garansinya menjadi 1 bulan. klik link di bawah ini untuk mendaftarkan device kamu.
+                <br /><Link className="hover:text-green-500" href="https://shop.movi.id/form/register-product?_ga=2.35579937.1646850590.1677463433-1868872385.1667883819&_gl=1*1rqtz71*_ga*MTg2ODg3MjM4NS4xNjY3ODgzODE5*_ga_XZG8G2C2ZR*MTY3NzQ3NDM5OS4yMDMuMC4xNjc3NDc0Mzk5LjAuMC4w">Form Garansi</Link>
               </p>
             </details>
+
+            
+
             <details className="p-4 group">
               <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
-                Bagaimana cara claim garansi?
+                Apakah cartridge Kuy V2 bisa digunakan di Kuy Saik?
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
@@ -220,7 +265,7 @@ export default function NavbarBasicPreview() {
                   strokeWidth="1.5"
                   aria-labelledby="title-ac04 desc-ac04"
                 >
-                  <title id="title-ac04">Open icon</title>
+                  <title id="title-ac04">Open</title>
                   <desc id="desc-ac04">
                     icon that represents the state of the summary
                   </desc>
@@ -232,18 +277,14 @@ export default function NavbarBasicPreview() {
                 </svg>
               </summary>
               <p className="mt-4 text-black font-bold">
-                
-                <br/>1. Kontak customer care movi.
-                <br/>2. Informasikan kendala dari produknya kepada sandra.
-                <br/>3. Lampirkan video terkait kendala dari produknya beserta bukti pembelian nya.
-                <br/>4  sandra akan mengirim form garansi untuk diisi oleh  yang mengajukan claim. Apabila produknya masih dalam masa garansi
-                <br/>5. Kirimkan produk yg terkendala kealamat yang tercantum di form garansi
+
+                Tenang semua jenis cartridge Kuy bisa saling digunakan mulai dari V1 - KUY GOX (termasuk kuy podlott )
 
               </p>
             </details>
             <details className="p-4 group">
               <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
-              Berapa lama masa garansi ?
+                Kuy, Aflo bisa pakai liquid freebase?
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
@@ -253,7 +294,7 @@ export default function NavbarBasicPreview() {
                   strokeWidth="1.5"
                   aria-labelledby="title-ac03 desc-ac03"
                 >
-                  <title id="title-ac03">Open icon</title>
+                  <title id="title-ac03">Open</title>
                   <desc id="desc-ac03">
                     icon that represents the state of the summary
                   </desc>
@@ -265,63 +306,7 @@ export default function NavbarBasicPreview() {
                 </svg>
               </summary>
               <p className="mt-4 text-black font-bold text-justify">
-              1 minggu kalo Kamu daftarin di website bisa 1 bulan, Link nya dibawah ini ya <br/><Link href="https://shop.movi.id/form/register-product?_ga=2.35579937.1646850590.1677463433-1868872385.1667883819&_gl=1*1rqtz71*_ga*MTg2ODg3MjM4NS4xNjY3ODgzODE5*_ga_XZG8G2C2ZR*MTY3NzQ3NDM5OS4yMDMuMC4xNjc3NDc0Mzk5LjAuMC4w" className="hover:text-green-400">Form Garansi</Link>
-              </p>
-            </details>
-            <details className="p-4 group">
-              <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
-              Cartridge kuy V2 bisa digunakan di kuy saik?
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  aria-labelledby="title-ac04 desc-ac04"
-                >
-                  <title id="title-ac04">Open icon</title>
-                  <desc id="desc-ac04">
-                    icon that represents the state of the summary
-                  </desc>
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 4v16m8-8H4"
-                  />
-                </svg>
-              </summary>
-              <p className="mt-4 text-black font-bold">
-                
-              tenang semua jenis cartridge kuy bisa saling digunakan mulai dari V1 - KUY GOX (termasuk kuy podlott )
-
-              </p>
-            </details>
-            <details className="p-4 group">
-              <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
-              Kuy, Aflo bisa pakai liquid freebase?
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  aria-labelledby="title-ac03 desc-ac03"
-                >
-                  <title id="title-ac03">Open icon</title>
-                  <desc id="desc-ac03">
-                    icon that represents the state of the summary
-                  </desc>
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 4v16m8-8H4"
-                  />
-                </svg>
-              </summary>
-              <p className="mt-4 text-black font-bold text-justify">
-              bisa asalkan menggunakan liquid yang ada logo FB99+ dan vg | pg nya 50:50
+                bisa asalkan menggunakan liquid yang ada logo FB99+ dan vg | pg nya 50:50
               </p>
             </details>
           </section>
