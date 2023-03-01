@@ -313,11 +313,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac04 desc-ac04">
+                    <title id="title-ac04">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac04">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -340,11 +340,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac05 desc-ac05">
+                    <title id="title-ac05">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac05">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -368,11 +368,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac06 desc-ac06">
+                    <title id="title-ac06">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac06">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -395,11 +395,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac07 desc-ac07">
+                    <title id="title-ac07">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac07">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -427,11 +427,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac08 desc-ac08">
+                    <title id="title-ac08">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac08">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -455,9 +455,9 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">Open</title>
-                    <desc id="desc-ac03">
+                    aria-labelledby="title-ac09 desc-ac09">
+                    <title id="title-ac09">Open</title>
+                    <desc id="desc-ac09">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -500,11 +500,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac010 desc-ac010">
+                    <title id="title-ac010">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac010">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -528,11 +528,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac011 desc-ac011">
+                    <title id="title-ac011">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac011">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -556,11 +556,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac012 desc-ac012">
+                    <title id="title-ac012">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac012">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -583,11 +583,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac013 desc-ac013">
+                    <title id="title-ac013">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac013">
                       icon that represents the state of the summary
                     </desc>
                     <path
@@ -611,11 +611,11 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac03 desc-ac03">
-                    <title id="title-ac03">
+                    aria-labelledby="title-ac014 desc-ac014">
+                    <title id="title-ac014">
                       Open
                     </title>
-                    <desc id="desc-ac03">
+                    <desc id="desc-ac014">
                       icon that represents the state of the summary
                     </desc>
                     <path
