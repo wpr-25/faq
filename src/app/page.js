@@ -313,8 +313,8 @@ export default function NavbarBasicPreview() {
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                     strokeWidth="1.5"
-                    aria-labelledby="title-ac04 desc-ac04">
-                    <title id="title-ac04">
+                    aria-labelledby="title-ac099 desc-ac099">
+                    <title id="title-ac099">
                       Open
                     </title>
                     <desc id="desc-ac04">
