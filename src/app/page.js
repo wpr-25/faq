@@ -317,7 +317,7 @@ export default function NavbarBasicPreview() {
                     <title id="title-ac099">
                       Open
                     </title>
-                    <desc id="desc-ac04">
+                    <desc id="desc-ac099">
                       icon that represents the state of the summary
                     </desc>
                     <path
