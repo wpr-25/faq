@@ -152,7 +152,7 @@ export default function NavbarBasicPreview() {
         {/*<!-- FAQ nya customer --> */}
         <div className="max-w-7xl mx-auto py-6 dark:bg-white">
           <div className="px-4 text-6xl dark:bg-white dark:text-white">
-            F.A.Q
+            FAQ
           </div>
           <div className="max-w-7xl mx-auto py-6">
             <p className="px-4">Pertanyaan yang sering ditanyakan oleh Kawan MOVI
@@ -191,6 +191,9 @@ export default function NavbarBasicPreview() {
                   <br />Kuy Saik device only 110K
                   <br />Aflo Joy device only 110K
                   <br />Cartridge only 66K (2pcs)
+                  <br /> Note :
+                  <br />Apabila Kamu membeli produk MOVI dibawah harga diatas bisa dikatan itu tidak original,
+                  <br />dan apabila terjadi sesuatu atau kerusakan yang dialami maka MOVI tidak akan bertanggung jawab.
                 </p>
               </details>
               <details className="p-4 group">
@@ -233,6 +236,9 @@ export default function NavbarBasicPreview() {
                   <br />- 1x Lanyard
                   <br />- 1x Silicone Case
                   <br />- 1x Liquid 15ml (Best Seller)
+                  <br /> Note :
+                  <br />Apabila Kamu membeli produk MOVI dibawah harga diatas bisa dikatan itu tidak original,
+                  <br />dan apabila terjadi sesuatu atau kerusakan yang dialami maka MOVI tidak akan bertanggung jawab.
                 </p>
               </details>
               <details className="p-4 group">
@@ -326,6 +332,93 @@ export default function NavbarBasicPreview() {
               </details>
               <details className="p-4 group">
                 <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+                  Bagaimana cara mengisi cartridge ?
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    aria-labelledby="title-ac03 desc-ac03">
+                    <title id="title-ac03">
+                      Open
+                    </title>
+                    <desc id="desc-ac03">
+                      icon that represents the state of the summary
+                    </desc>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </summary>
+                <p className="mt-4 text-black font-bold text-justify">
+                  Untuk cara mengisi cartridge kamu bisa lihat video youtube kami pada link dibawah ini
+                  <br /><Link href="https://www.youtube.com/watch?v=ybqzZbeyEH0" className="hover:text-green-500">Cara mengisi cartridge</Link>
+                </p>
+              </details>
+              <details className="p-4 group">
+                <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+                  Barapa lama usia cartridge ?
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    aria-labelledby="title-ac03 desc-ac03">
+                    <title id="title-ac03">
+                      Open
+                    </title>
+                    <desc id="desc-ac03">
+                      icon that represents the state of the summary
+                    </desc>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </summary>
+                <p className="mt-4 text-black font-bold text-justify">
+                  Untuk usia cartridge sendiri bisa sampai 1 bulan dan paling singkat adalah 2 minggu
+                </p>
+              </details>
+              <details className="p-4 group">
+                <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+                  Apa tanda dari lampu indikator?
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    aria-labelledby="title-ac03 desc-ac03">
+                    <title id="title-ac03">
+                      Open
+                    </title>
+                    <desc id="desc-ac03">
+                      icon that represents the state of the summary
+                    </desc>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </summary>
+                <p className="mt-4 text-black font-bold text-justify">
+                  <br />Berikut penjelasannya dibawah ini Kawan
+                  <br />indikator baterai :
+                  <br />hijau (full / 100%)
+                  <br />biru (75 - 50%)
+                  <br />merah ( 20 - 10%)
+                  <br />merah berkedip (lowbatt)
+                </p>
+              </details>
+              <details className="p-4 group">
+                <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
                   Kuy, Aflo bisa pakai liquid freebase?
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -351,6 +444,7 @@ export default function NavbarBasicPreview() {
                   bisa asalkan menggunakan liquid yang ada logo FB99+ dan vg | pg nya 50:50
                 </p>
               </details>
+
               <details className="p-4 group">
                 <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
                   Apakah ada rekomendasi Liquid Best Seller?
@@ -422,6 +516,118 @@ export default function NavbarBasicPreview() {
                 <p className="mt-4 text-black font-bold text-justify">
                   Dalam pengisian daya device Aflo & Kuy dengan micro usb akan memakan waktu 30 menit sampai dengan 1 jam,
                   <br />Usb type C bisa 30 menit sampai dengan 45 menit
+                </p>
+              </details>
+              <details className="p-4 group">
+                <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+                  Dimana saja MOVI Store tersedia?
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    aria-labelledby="title-ac03 desc-ac03">
+                    <title id="title-ac03">
+                      Open
+                    </title>
+                    <desc id="desc-ac03">
+                      icon that represents the state of the summary
+                    </desc>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </summary>
+                <p className="mt-4 text-black font-bold text-justify">
+                  Kamu bisa kunjungi link dibawah ini untuk menemukan lokasi MOVI terdekat kamu,
+                  <br /><Link href="https://desty.page/ministryofvapeindonesia/movistore" className="hover:text-green-500">MOVI Store Terdekat Kamu</Link>
+                </p>
+              </details>
+              <details className="p-4 group">
+                <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+                  Brand apa saja yang dinaungi oleh MOVI?
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    aria-labelledby="title-ac03 desc-ac03">
+                    <title id="title-ac03">
+                      Open
+                    </title>
+                    <desc id="desc-ac03">
+                      icon that represents the state of the summary
+                    </desc>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </summary>
+                <p className="mt-4 text-black font-bold text-justify">
+                  KUY & AFLO
+                </p>
+              </details>
+              <details className="p-4 group">
+                <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+                  Berapa lama Device Kuy & Aflo dalam pengisian daya?
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    aria-labelledby="title-ac03 desc-ac03">
+                    <title id="title-ac03">
+                      Open
+                    </title>
+                    <desc id="desc-ac03">
+                      icon that represents the state of the summary
+                    </desc>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </summary>
+                <p className="mt-4 text-black font-bold text-justify">
+                  Dalam pengisian daya device Aflo & Kuy dengan micro usb akan memakan waktu 30 menit sampai dengan 1 jam,
+                  <br />Usb type C bisa 30 menit sampai dengan 45 menit
+                </p>
+              </details>
+              <details className="p-4 group">
+                <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
+                  Bagaimana cara untuk menghubungi Sandra MOVI?
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    aria-labelledby="title-ac03 desc-ac03">
+                    <title id="title-ac03">
+                      Open
+                    </title>
+                    <desc id="desc-ac03">
+                      icon that represents the state of the summary
+                    </desc>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </summary>
+                <p className="mt-4 text-black font-bold text-justify">
+                 Silahkan kunjungi link dibawah ini agar kamu bisa chat dengan Sandra,
+                 <br/><Link href="https://api.whatsapp.com/send/?phone=%2B6282298870101&text&type=phone_number&app_absent=0" className="hover:text-green-500">Chat 
+                 Sandra yuk..</Link>
                 </p>
               </details>
             </section>
