@@ -492,7 +492,7 @@ export default function NavbarBasicPreview() {
               </details>
               <details className="p-4 group">
                 <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden text-lg">
-                  Berapa lama Device Kuy & Aflo dalam pengisian daya?
+                  Apakah Kuy Podlott produk MOVI?
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="absolute right-0 w-4 h-4 transition duration-300 top-1 shrink-0 stroke-slate-700 group-open:rotate-45"
@@ -514,8 +514,10 @@ export default function NavbarBasicPreview() {
                   </svg>
                 </summary>
                 <p className="mt-4 text-black font-bold text-justify">
-                  Dalam pengisian daya device Aflo & Kuy dengan micro usb akan memakan waktu 30 menit sampai dengan 1 jam,
-                  <br />Usb type C bisa 30 menit sampai dengan 45 menit
+                  Ya, Kuy Podlott merupakan produk hasil dari sebuah kolaborasi,
+                  <br/>dimana <Link href="https://movi.id" className="hover:text-green-500">MOVI</Link>, <Link href="https://vapezoo.com/" className="hover:text-green-500">Vapezoo</Link>, dan <Link href="https://slank.com/" className="hover:text-green-500">SLANK</Link>.
+                  <br/>Notes:
+                  <br/>Kuy Podlott merupakan Kuy V3 atau Saik yang sudah dimodifikasi.
                 </p>
               </details>
               <details className="p-4 group">
