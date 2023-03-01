@@ -2,8 +2,8 @@ import Head from 'next/head'
 import './globals.css'
 
 export const metadata = {
-  title: 'F.A.Q',
-  description: 'F.A.Q MOVI ID',
+  title: 'FAQ',
+  description: 'FAQ MOVI ID',
   
 }
 
