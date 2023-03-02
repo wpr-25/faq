@@ -119,7 +119,7 @@ export default function NavbarBasicPreview() {
         {/*<!--slider-->*/}
         <div className="carousel max-w-7xl mx-auto py-4 dark:bg-white">
           <div id="slide1" className="carousel-item relative w-full">
-            <img src="AFLO_Wine_Freeze.jpg" className="w-full" alt="movi aflo wine freeze"/>
+            <img src="aflo wine freeze.webp" className="w-full" alt="movi aflo wine freeze"/>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide4" className="btn btn-circle">❮</a>
               <a href="#slide2" className="btn btn-circle">❯</a>
@@ -133,14 +133,14 @@ export default function NavbarBasicPreview() {
             </div>
           </div>
           <div id="slide3" className="carousel-item relative w-full">
-            <img src="KUY_Soursop_Freeze.jpg" className="w-full" alt="movi kuy soursop freeze"/>
+            <img src="kuy soursop freeze.webp" className="w-full" alt="movi kuy soursop freeze"/>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" className="btn btn-circle">❮</a>
               <a href="#slide4" className="btn btn-circle">❯</a>
             </div>
           </div>
           <div id="slide4" className="carousel-item relative w-full">
-            <img src="KUY_Cantaloupe_Freeze.jpg" className="w-full" alt="movi kuy cantaloupe freeze"/>
+            <img src="kuy cantaloupe freeze.webp" className="w-full" alt="movi kuy cantaloupe freeze"/>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" className="btn btn-circle">❮</a>
               <a href="#slide1" className="btn btn-circle">❯</a>
