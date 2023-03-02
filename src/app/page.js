@@ -126,7 +126,7 @@ export default function NavbarBasicPreview() {
             </div>
           </div>
           <div id="slide2" className="carousel-item relative w-full">
-            <img src="AFLO_Blackcurrant_Brain_Freeze.jpg" className="w-full" alt="movi aflo blackcurrant brain freeze"/>
+            <img src="aflo black currant brain freeze.webp" className="w-full" alt="movi aflo blackcurrant brain freeze"/>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" className="btn btn-circle">❮</a>
               <a href="#slide3" className="btn btn-circle">❯</a>
