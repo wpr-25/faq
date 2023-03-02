@@ -19,7 +19,7 @@ export default function NavbarBasicPreview() {
               className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
               role="navigation">
               {/*      <!-- logo --> */}
-              <div><Link href="https://movi.id"><img src="https://shop.movi.id/img/logos/movi.png" className="py-6 h-20" alt="MOVI" /></Link></div>
+              <div><Link href="https://movi.id"><img src="https://shop.movi.id/img/logos/movi.png" loading="lazy" className="py-6 h-20" alt="MOVI" /></Link></div>
               {/*      <!-- Mobile trigger --> */}
               <button
                 className={`relative order-10 block h-10 w-10 self-center lg:hidden
@@ -119,28 +119,28 @@ export default function NavbarBasicPreview() {
         {/*<!--slider-->*/}
         <div className="carousel max-w-7xl mx-auto py-4 dark:bg-white">
           <div id="slide1" className="carousel-item relative w-full">
-            <img src="aflo wine freeze.webp" className="w-full" alt="movi aflo wine freeze"/>
+            <img src="aflo wine freeze.webp" className="w-full" alt="movi aflo wine freeze" loading="lazy"/>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide4" className="btn btn-circle">❮</a>
               <a href="#slide2" className="btn btn-circle">❯</a>
             </div>
           </div>
           <div id="slide2" className="carousel-item relative w-full">
-            <img src="aflo black currant brain freeze.webp" className="w-full" alt="movi aflo blackcurrant brain freeze"/>
+            <img src="aflo black currant brain freeze.webp" className="w-full" alt="movi aflo blackcurrant brain freeze" loading="lazy"/>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" className="btn btn-circle">❮</a>
               <a href="#slide3" className="btn btn-circle">❯</a>
             </div>
           </div>
           <div id="slide3" className="carousel-item relative w-full">
-            <img src="kuy soursop freeze.webp" className="w-full" alt="movi kuy soursop freeze"/>
+            <img src="kuy soursop freeze.webp" className="w-full" alt="movi kuy soursop freeze" loading="lazy"/>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" className="btn btn-circle">❮</a>
               <a href="#slide4" className="btn btn-circle">❯</a>
             </div>
           </div>
           <div id="slide4" className="carousel-item relative w-full">
-            <img src="kuy cantaloupe freeze.webp" className="w-full" alt="movi kuy cantaloupe freeze"/>
+            <img src="kuy cantaloupe freeze.webp" className="w-full" alt="movi kuy cantaloupe freeze" loading="lazy"/>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" className="btn btn-circle">❮</a>
               <a href="#slide1" className="btn btn-circle">❯</a>
@@ -642,7 +642,7 @@ export default function NavbarBasicPreview() {
           <div class="container px-6 py-8 mx-auto">
             <div class="flex flex-col items-center text-center">
               <a href="#">
-                <img class="w-auto h-7" src="https://shop.movi.id/img/logos/movi.png" alt="MOVI" />
+                <img class="w-auto h-7" src="https://shop.movi.id/img/logos/movi.png" loading="lazy" alt="MOVI" />
               </a>
 
               <p class="max-w-md mx-auto mt-4 text-gray-500 dark:text-gray-400">.</p>
